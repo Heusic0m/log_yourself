@@ -1,0 +1,44 @@
+form {
+  margin-top: 18rem;
+  margin-left: 15rem;
+}
+
+.username {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 3%;
+  border: solid 3px rgb(223, 167, 119);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.password {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 3%;
+  border: solid 3px rgb(223, 167, 119);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.submit {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 3%;
+  background-color: rgb(223, 167, 119);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  font-size: 1rem bolder;
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.bloc {
+  background-color: rgb(5, 5, 75);
+  padding-top: 1rem;
+}
