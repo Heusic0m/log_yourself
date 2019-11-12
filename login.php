@@ -18,7 +18,7 @@ include "function.php";
             <h1>login</h1>
             <input class="username" type="text" placeholder="username" required name="username">
             <input class="password" type="password" placeholder="password" required name="password">
-            <input class="submit" type="submit" name="submit" value="Connect">
+            <input class="submit" type="submit" name="login" value="Connect">
 
         </form>
         <div class="bloc2"></div>
