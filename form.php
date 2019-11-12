@@ -1,5 +1,29 @@
 <?php
 include 'function.php';
+
+try {
+
+    if (isset($_POST["submit"])) {
+
+        $username = $_POST["username"];
+        $email =  $_POST['email'];
+        $password = $_POST['password'];
+        $firstname = $_POST["first_name"];
+        $lastname = $_POST["last_name"];
+        $linkedin = $_POST["linkedin"];
+        $github = $_POST["github"];
+
+
+        $pdo = openConnection();
+
+        $sql = "INSERT INTO student (id, username, email, password, first_name, last_name, linkedin, github) VALUES (NULL,?,?,?,?,?,?,?);";
+        $result = $pdo->prepare($sql)->execute([$username, $email, $password, $firstname, $lastname, $linkedin, $github]);
+
+        echo "Your information has been sent " . "<br>" . '<a href="form.php">Come back to home to log in</a>';
+    }
+} catch (Exception  $e) {
+    echo "Not ok";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
