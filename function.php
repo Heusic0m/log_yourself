@@ -21,8 +21,8 @@
          <input class="linkedin" type="url" placeholder="linkedin" name="linkedin">
          <input class="github" type="url" placeholder="github" name="github"><br>
 
-         <input type="reset" value="Clear"></>
-         <input type="submit" name="submit" value="Connect">
+         <input class="clear" type="reset" value="clear" name="clear"></>
+         <input class="submit" type="submit" name="submit" value="Connect">
 
      </form>
  </body>
