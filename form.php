@@ -13,6 +13,10 @@ include 'function.php';
 </head>
 
 <body>
+    <a href="login.php" class="login" type="url" name="login" value="login">
+        <button class="log">login</button>
+    </a>
+
     <form method="POST" action="function.php">
         <h1>Registration</h1>
 
@@ -29,7 +33,6 @@ include 'function.php';
 
 
     </form>
-    <a href="login.php" class="login" type="submit" name="login" value="login">
 
 </body>
 

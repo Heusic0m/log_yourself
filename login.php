@@ -21,6 +21,7 @@ include "function.php";
             <input class="submit" type="submit" name="submit" value="Connect">
 
         </form>
+        <div class="bloc2"></div>
     </div>
 </body>
 
